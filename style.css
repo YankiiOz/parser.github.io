@@ -33,6 +33,10 @@ ul {
   font-size: 13px;
 }
 
+.menu>li a {
+  padding: 10px;
+}
+
 .bottom-header {
   display: flex;
   background-color: #c45238;
@@ -49,16 +53,21 @@ ul {
   max-width: 400px;
   font-family: "Open Sans", sans-serif;
 }
-.list > ul li > a i.fa {
-  position: absolute;
-  left: 25px;
-}
+
 
 .list > ul li > a {
   padding: 15px 10px 15px 40px;
   text-decoration: none;
   color: #fff;
   margin: 10px;
+}
+
+.previous {
+  margin-right: 10px;
+}
+
+.last {
+  margin-right: 10px;
 }
 
 .list a:hover {
@@ -449,6 +458,7 @@ td {
   display: flex;
   background-color: #061b33;
   justify-content: space-around;
+
 }
 
 .footer-info {
@@ -473,8 +483,8 @@ td {
   margin-left: 60px;
 }
 
-.social-media1 > li a > i.fa {
-  padding: 10px;
+.icon {
+  margin-right: 10px;
 }
 
 .social-media2 > li a {
